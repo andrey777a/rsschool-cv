@@ -22,3 +22,26 @@
 * Figma
 
 
+## Experience
+ There are several test layout sites used to create HTML CSS JS Slick
+1. [GuestHouse](https://github.com/andrey777a/guesHouse#gueshouse)
+2. [Exemples](https://github.com/andrey777a/layout-of-examples)
+
+## Code example
+```
+var say = function(string1) {
+  return function(string2){
+    return `${string1} ${string2}`
+  }
+}
+```
+
+
+## Education and courses:
+* Курс на [stepik](stepik.org): Веб разработчик для начинающих: HTML и CSS
+* [JS](https://www.youtube.com/watch?v=CxgOKJh4zWE&t=32442s) video course on YouTube channe [Bogdan Stashchuk](https://www.youtube.com/watch?v=CxgOKJh4zWE&t=32442s)
+* [Git](https://www.youtube.com/watch?v=O00FTZDxD0o) video course on YouTube channe [Bogdan Stashchuk](https://www.youtube.com/watch?v=CxgOKJh4zWE&t=32442s)
+
+
+## Language
+English - A2
