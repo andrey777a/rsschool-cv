@@ -7,3 +7,18 @@
 ###### Discord: [Andrey-Alekseev (@andrey777a)]("discord")
 ###### Telegram: [andreyalekseev07](name "discord")
 ###### E-mail: [andriiano@yandex.ru](andriiano@yandex.ru)
+
+
+
+## About myself
+ I am a beginner Front-End developer.
+ At the moment I am actively learning to use HTML, CSS, GitHub and lerning JS.
+
+## Skills
+* HTML, CSS
+* JS Basics
+* GULP, BEM
+* Github
+* Figma
+
+
