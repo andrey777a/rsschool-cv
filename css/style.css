@@ -20,6 +20,10 @@ ul{
     padding: 0 15px;
     margin: 0 auto;
 }
+.title{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
 .menu__list{
     display: flex;
     align-items: flex-end;
@@ -38,6 +42,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     height: 300px;
+    margin-bottom: 100px;
 }
 .my-name{
     color: #000000;
@@ -61,4 +66,119 @@ ul{
     height: 150px;
     margin-right: 130px;
 }
+.info__inner{
+    display: flex;
+}
+.left-column{
+    margin-right: 200px;
+}
+.contact{
+    width: 255px;
+    height: 255px;
+}
+.contact__item{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.contact__item img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
 
+.skills {
+    width: 255px;
+    height: 255px;
+    margin-bottom: 10px;
+}
+.skills__inner {
+}
+.skills__title {
+}
+.title {
+}
+.skills__items {
+    list-style: disc;
+    margin-left: -20px;
+}
+.skills__item:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+
+.languages {
+    margin-bottom: 10px;
+}
+.languages__inner {
+}
+.langeages__title {
+}
+.title {
+}
+.languages__items {
+    list-style: circle;
+}
+.languages__item:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.education {
+    padding-top: 10px;
+}
+.education__inner {
+}
+.education__title {
+
+}
+.title {
+}
+.education__first {
+}
+.education__subtitle {
+    text-transform: uppercase;
+}
+.education__text {
+}
+.education__second {
+}
+
+
+
+.aboutme {
+    max-width: 600px;
+    height: 255px;
+}
+.aboutme__inner {
+}
+.aboutme__title {
+}
+.title {
+}
+.aboutme__text {
+    line-height: 50px;
+}
+
+
+
+
+.example {
+}
+.example__inner {
+}
+.about__title {
+    margin-bottom: 0;
+}
+.title {
+}
+.example__content {
+    display: flex;
+    column-gap: 30px;
+}
+.example__content-mercedes {
+}
+.example__content-title {
+}
+.example__content-item img{
+    height: 150px;
+}
