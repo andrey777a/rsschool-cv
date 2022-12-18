@@ -4,10 +4,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CV Andrey Alekseev</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#about">About Me</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#skills">Skills</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#example">Examples</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#education">Education</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#contact">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <h1 class="my-name">Andrey <br> Alekseev</h1>
+                    <p class="frontend">Front-End Developer</p>
+                    <img class="photo" src="img/photo.png" alt="my-photo">
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="info__inner">
+                    <div class="left-column">
+                        <div class="contact" id="contact">
+                            <h2 class="contact__title title">contact</h2>
+                            <div class="contact__inner">
+                                <!-- <div class="city contact__item">
+                                    <img src="img/point.svg" alt="Moscow">
+                                    <p>Moscow</p>
+                                </div>
+                                <div class="telegram contact__item">
+                                    <img src="img/telegram.svg" alt="telegram">
+                                    <p>@andreyalekseev07</p>
+                                </div>
+                                <div class="mail contact__item">
+                                    <img src="img/mail.svg" alt="mail">
+                                    <p><a href="andriiano@yandex.ru">andriiano@yandex.ru</a></p>
+                                </div> -->
+                                <ul class="contact__items">
+                                    <li class="city contact__item">
+                                            <img src="img/point.svg" alt="Moscow">
+                                            <p>Moscow</p>
+                                    </li>
+                                    <li class="telegram contact__item">
+                                            <img src="img/telegram.svg" alt="telegram">
+                                            <p>@andreyalekseev07</p>
+                                    </li>
+                                    <li class="mail contact__item">
+                                        <img src="img/mail.svg" alt="mail">
+                                        <p><a href="andriiano@yandex.ru">andriiano@yandex.ru</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="skills" id="skills">
+                            <div class="skills__inner">
+                                <h2 class="skills__title title">skills</h2>
+                                <ul class="skills__items">
+                                    <li class="skills__item">JavaScript</li>
+                                    <li class="skills__item">HTML CSS</li>
+                                    <li class="skills__item">SASS Gulp</li>
+                                    <li class="skills__item">GitHub BEM</li>
+                                    <li class="skills__item">Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <div class="languages__inner">
+                                <h2 class="langeages__title title">languages</h2>
+                                <ul class="languages__items">
+                                    <li class="languages__item">Russian native</li>
+                                    <li class="languages__item">English   A2</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="education" id="education">
+                            <div class="education__inner">
+                                <h2 class="education__title title">education</h2>
+                                <div class="education__first">
+                                    <p class="education__subtitle"><b>stepik</b></p>
+                                    <p class="education__text">Web development for beginners</p>
+                                </div>
+                                <div class="education__second">
+                                    <p class="education__subtitle"><b>Youtube</b></p>
+                                    <p class="education__text">JavaScript for beginners</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-column">
+                        <div class="aboutme" id="about">
+                            <div class="aboutme__inner">
+                                <h2 class="aboutme__title title">About Me</h2>
+                                <p class="aboutme__text">I am a beginner Front-End developer. At the moment I actively learn to use HTML, CSS, GitHub and lerning JS.</p>
+                            </div>
+                        </div>
+                        <div class="example" id="example">
+                            <div class="example__inner">
+                                <h2 class="about__title title">EXAMPLE</h2>
+                                <div class="example__content">
+                                    <div class="example__content-mercedes example__content-item">
+                                        <p class="example__content-title">MERCEDES
+                                        </p>
+                                        <a href="https://andrey777a.github.io/mercedes/" target="_blank">
+                                            <figure><img class="link-img" src="img/mercedes 1.png" alt="mercedes"></figure>
+                                        </a>
+                                    </div>
+                                    <div class="example__content-viking example__content-item">
+                                        <p class="example__content-title">VIKING
+                                        </p>
+                                        <a href="https://andrey777a.github.io/mercedes/" target="_blank">
+                                            <figure><img class="link-img" src="img/viking 1.png" alt="viking"></figure>
+                                        </a>
+                                    </div>
+                                    <div class="example__content-lamborghini example__content-item">
+                                        <p class="example__content-title">LAMBORGHINI
+                                        </p>
+                                        <a href="https://andrey777a.github.io/mercedes/" target="_blank">
+                                            <figure><img class="link-img" src="img/lamba 1.png" alt="lamborghini"></figure>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="example-code" id="example-code">
+                            <h2 class="example-code__title title">example-code</h2>
+                            <pre>
+                                <code class="example__code-text">
+                                    function factorial(n)
+                                    {   if (n ❮ 0)
+                                            return null;
+                                        if (n === 0) return 1;
+                                            return n * factorial(n-1);
+                                    }
+                                </code>
+                            </pre> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+
+
+
+
+
+    <footer class="footer" id="footer">
+        <ul class="footer__items">
+            <li class="footer__item-git">
+                <a href="https://github.com/andrey777a" class="git" target="_blank">
+                    <img class="git__img" src="img/Icons1.svg" alt="icon-git">
+                </a>
+            </li>
+            <li class="footer__item-year">
+                <p >2022</p>
+            </li>
+            <li class="footer__item-rss">
+                <a href="https://rs.school/js/" class="rss" target="_blank">
+                    <img class="rss__img" src="img/rs_school-logo.svg" alt="img-rss">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
