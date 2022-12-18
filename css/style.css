@@ -6,7 +6,8 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;}
+    line-height: 21px;
+}
 
 a{
     color: inherit;
@@ -23,6 +24,7 @@ ul{
 .title{
     text-transform: uppercase;
     padding-bottom: 20px;
+    margin: 0 auto;
 }
 .menu__list{
     display: flex;
@@ -32,10 +34,68 @@ ul{
     list-style: none;
     margin-right: 20px;
 }
-.menu__list-link{
-    text-decoration: none;
-    color: #000000;
+
+/* .menu__list-link:hover{
+    text-decoration: underline;
+    background-color: rgb(142, 230, 34);
+} */
+.menu__list-link {
+	color: #000000;
+    position: relative;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+    line-height: 30px;
+    font-size: larger;
 }
+.menu__list-link:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.menu__list-link:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.example__content-title{
+    text-align: center;
+}
+.example__content figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 .about__inner{
     position: relative;
     display: flex;
@@ -76,6 +136,9 @@ ul{
     width: 255px;
     height: 255px;
 }
+.contact__items{
+    padding-left: 0;
+}
 .contact__item{
     display: flex;
     align-items: center;
@@ -108,7 +171,8 @@ ul{
 
 
 .languages {
-    margin-bottom: 10px;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 .languages__inner {
 }
@@ -181,4 +245,51 @@ ul{
 }
 .example__content-item img{
     height: 150px;
+}
+.link-img:hover{
+    border-radius: 50;
+}
+
+.example-code {
+    margin-top: 40px;
+    position: relative;
+}
+.example-code__title {
+}
+.title {
+}
+.example__code-text {
+    position: absolute;
+    right: 583px;
+    width: 400px;
+}
+
+
+.footer {
+    height: 50px;
+}
+.footer__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer__item-git {
+}
+.git {
+}
+.git__img{
+    width: 35px;
+    height: 35px;
+}
+.footer__item-year {
+    font-size: larger;
+}
+.footer__item-rss {
+}
+.rss {
+}
+.rss__img{
+    width: 70px;
+    height: 70px;
 }
